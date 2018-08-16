@@ -31,7 +31,7 @@ function startGame() {
     blanksAndSuccess = [];
     guessedLetter = [];
     incorrectGuess = [];
-    //Selects a fruitword at random
+    //Selects a colorword at random
     currentWord = colorWords[Math.floor(Math.random() * colorWords.length)];
 
     //Splits the current word into letters, so that you can match the users guesses to the letters of the word
