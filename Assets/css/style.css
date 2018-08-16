@@ -1,0 +1,97 @@
+body {
+  /* background-color: #FFFBC0; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url("../images/colors.jpg");
+  background-size: cover;
+  
+}
+
+ h3 {
+  margin-top: 0;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  color: blue;
+}
+
+.jumbotron {
+  text-align: center;
+  color:blue;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #B9A2D2; 
+  background-image: url("../images/colorpencil.jpeg");
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  font-size: 100px;
+}
+
+.scoreBoard {
+  align-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: red;
+  font-size: 25px;
+}
+
+#currentWord {
+  text-align: center;
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: green;
+}
+
+#alphabet-btns {
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: red;
+}
+
+.center {
+  text-align: center;
+  font-size: 30px;
+}
+
+.btn-primary {
+  margin: 0 10px 10px 0;
+  width: 40px;
+  height: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover {
+  background:green;
+  border: solid 2px ;
+  color: #FFF88B;
+}
+
+.btn-primary:disabled {
+  background: #68349E;
+  border: solid 1px;
+  color:yellow;
+}
+
+footer {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: yellowgreen;
+}
+
+@media only screen and (max-width: 800px) {
+  .jumbotron h1 {
+      font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .jumbotron h1 {
+      font-size: 50px;
+  }
